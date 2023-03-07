@@ -1,3 +1,4 @@
+document.querySelector("#sketch").dataset.trigger = Date.now();
 function setup() {
   createCanvas(windowWidth, windowHeight);
   frameRate(20);

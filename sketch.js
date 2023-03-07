@@ -23,10 +23,11 @@ function rY() {
   return getRandInt(0, height);
 }
 function draw() {
+  clear();
   fill("white");
   textSize(32);
   text(accelerationX + " " + pAccelerationX + " " + rotationX, 10, 30);
-  frames++;
+  /* frames++;
   let shape = getRandInt(2);
   shape = 0;
   fill(...getRandColor());
@@ -45,7 +46,7 @@ function draw() {
   }
   if (frames > 100) {
     noLoop();
-  }
+  } */
 }
 function mouseDragged() {
   fill(getRandInt(255), getRandInt(255), getRandInt(255));

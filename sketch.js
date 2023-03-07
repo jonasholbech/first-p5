@@ -28,9 +28,9 @@ function draw() {
   clear();
   fill("black");
   textSize(32);
-  text("X: " + accelerationX, 10, 30);
-  text("Y: " + accelerationY, 10, 100);
-  text("Z: " + accelerationZ, 10, 200);
+  text("X: " + accelerationX.toFixed(3), 10, 30);
+  text("Y: " + accelerationY.toFixed(3), 10, 100);
+  text("Z: " + accelerationZ.toFixed(3), 10, 200);
   /* frames++;
   let shape = getRandInt(2);
   shape = 0;

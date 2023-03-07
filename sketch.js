@@ -24,9 +24,11 @@ function rY() {
 }
 function draw() {
   clear();
-  fill("white");
+  fill("black");
   textSize(32);
-  text(accelerationX + " " + pAccelerationX + " " + rotationX, 10, 30);
+  text(accelerationX, 10, 30);
+  text(pAccelerationX, 10, 100);
+  text(rotationX, 10, 200);
   /* frames++;
   let shape = getRandInt(2);
   shape = 0;

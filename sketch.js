@@ -104,7 +104,7 @@ function mouseClicked() {
   square(mouseX, mouseY, 100); */
 }
 
-function keyPressed() {
+function keyPressed(e) {
   if (keyIsDown(UP_ARROW)) {
     //
   }
